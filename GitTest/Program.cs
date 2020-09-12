@@ -16,6 +16,7 @@ namespace GitTest
             drawableClasses.Add(new Respect());
             drawableClasses.Add(new Subject());
             drawableClasses.Add(new User());
+            drawableClasses.Add(new Client() { Name = "Inna"});
 
             foreach (var item in drawableClasses) 
             {
