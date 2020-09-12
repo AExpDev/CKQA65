@@ -8,7 +8,7 @@ namespace GitTest
         static void Main(string[] args)
         {
             List<IDrawable> drawableClasses = new List<IDrawable>();
-            drawableClasses.Add(new Chelovek());
+            drawableClasses.Add(new Chelovek() { Id = 0, Name = "Denis" });
             drawableClasses.Add(new ClassAdress() {Id = "0", City="Tatiana" });
             drawableClasses.Add(new ClassRooms());
             drawableClasses.Add(new Consultant());
