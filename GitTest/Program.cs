@@ -13,7 +13,7 @@ namespace GitTest
             drawableClasses.Add(new ClassRooms() { Id = "3", Name = "Nadya" }) ;
             drawableClasses.Add(new Consultant());
             drawableClasses.Add(new Hostel());
-            drawableClasses.Add(new Respect());
+            drawableClasses.Add(new Respect() { Id = "6", Name="Dmitriy"}); 
             drawableClasses.Add(new Subject() { Id = 7, Name = "Natalya" });
             drawableClasses.Add(new User());
 
