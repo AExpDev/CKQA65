@@ -15,7 +15,7 @@ namespace GitTest
             drawableClasses.Add(new Hostel() {id = 5, name = "Alexandr" });
             drawableClasses.Add(new Respect() {Id="6", Name="Dmitriy"});
             drawableClasses.Add(new Subject() { Id = 7, Name = "Natalya" });
-            drawableClasses.Add(new User() { });
+            drawableClasses.Add(new User() { Id = "8", Name = "Alex" });
 
             foreach (var item in drawableClasses) 
             {
