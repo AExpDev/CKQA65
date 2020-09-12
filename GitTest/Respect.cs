@@ -8,9 +8,10 @@ namespace GitTest
     {
         public string Id { get; set; }
         public string Name { get; set; }
+        public void Draw()
+        {
+            Console.WriteLine("Name:" + this.Name);
+        }
     }
-    public void Draw()
-    {
-        Console.WriteLine("Name:" + this.Name);
-    }
+
 }
