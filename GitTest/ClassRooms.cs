@@ -4,10 +4,11 @@ using System.Text;
 
 namespace GitTest
 {
-    public class Chelovek: IDrawable
+    class ClassRooms : IDrawable
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
+        
+            public string Id { get; set; }
+            public string Name { get; set; }
         public void Draw()
         {
             Console.WriteLine("Name:" + this.Name);
