@@ -9,7 +9,7 @@ namespace GitTest
         {
             List<IDrawable> drawableClasses = new List<IDrawable>();
             drawableClasses.Add(new Chelovek());
-            drawableClasses.Add(new ClassAdress());
+            drawableClasses.Add(new ClassAdress() {Id = 0, City="Tatiana" });
             drawableClasses.Add(new ClassRooms());
             drawableClasses.Add(new Consultant());
             drawableClasses.Add(new Hostel());
