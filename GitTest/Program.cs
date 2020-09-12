@@ -9,11 +9,11 @@ namespace GitTest
         {
             List<IDrawable> drawableClasses = new List<IDrawable>();
             drawableClasses.Add(new Chelovek() { Id = 1, Name = "Denis" });
-            drawableClasses.Add(new ClassAdress() {Id = "1", City="Tatiana" });
+            drawableClasses.Add(new ClassAdress() { Id = 2, Name = "Tatiana" });
             drawableClasses.Add(new ClassRooms() { id = 3, name = "Nadya" });
             drawableClasses.Add(new Consultant() { Id = 4, Name = "Tanya" });
             drawableClasses.Add(new Hostel() {id = 5, name = "Alexandr" });
-            drawableClasses.Add(new Respect() {Id="6", Name="Dmitriy"});
+            drawableClasses.Add(new Respect() {Id=6, Name="Dmitriy"});
             drawableClasses.Add(new Subject() { Id = 7, Name = "Natalya" });
             drawableClasses.Add(new User() { id = 8, name = "Alex" });
             drawableClasses.Add(new Client() { Id = 9, Name = "Inna" });

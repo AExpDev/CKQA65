@@ -10,7 +10,8 @@ namespace GitTest
         public string Name { get; set; }
         public void Draw()
         {
-            Console.WriteLine($"Class:Chelovek. Value:ID:{ this.Id}, Name:{this.Name}");
+            Console.WriteLine($"Class:Chelovek. Value:ID:{ this.Id},Name:{this.Name}");
+            Console.WriteLine();
         }
     }
 }

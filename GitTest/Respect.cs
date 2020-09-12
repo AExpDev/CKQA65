@@ -6,11 +6,12 @@ namespace GitTest
 {
     class Respect : IDrawable
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
         public void Draw()
         {
-            Console.WriteLine("Name:" + this.Name);
+            Console.WriteLine($"Class:Respect. Value:ID:{this.Id},Name:{this.Name}");
+            Console.WriteLine();
         }
     }
 
