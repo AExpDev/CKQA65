@@ -6,12 +6,13 @@ namespace GitTest
 {
     class ClassAdress : IDrawable
     {
-        public string Id { get; set; }
-        public string City { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
        
         public void Draw()
         {
-            Console.WriteLine($"Class:User. Value:ID:{this.Id},Name:{this.City}");
+            Console.WriteLine($"Class:ClassAdress. Value:ID:{this.Id},Name:{this.Name}");
+            Console.WriteLine();
         }
 
     }
