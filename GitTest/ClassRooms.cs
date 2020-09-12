@@ -7,7 +7,7 @@ namespace GitTest
     class ClassRooms : IDrawable
     {
         
-            public string Id { get; set; }
+            public int Id { get; set; }
             public string Name { get; set; }
         public void Draw()
         {
