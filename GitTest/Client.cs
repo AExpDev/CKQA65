@@ -11,7 +11,7 @@ namespace GitTest
 
         public void Draw()
         {
-            Console.WriteLine("Name:" + this.Name);
+            Console.WriteLine($"Class:Client. Value:ID:{this.Id},Name:{this.Name}");
         }
     }
 }
