@@ -22,6 +22,7 @@ namespace GitTest
             {
                 item.Draw();
             }
+
             Console.ReadLine();
         }
     }
